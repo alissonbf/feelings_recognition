@@ -1,0 +1,8 @@
+# Python Compiled
+*.pyc
+
+# PyCharm Control Files
+.idea/*
+
+# Google Project Key
+keys/*
