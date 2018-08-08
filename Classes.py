@@ -82,7 +82,7 @@ class Vision(object):
             score = 0
             self.feeling = None
             for key, value in feelings.items():
-                if value >= score:
+                if value > score:
                     score = value
                     self.feeling = key
             if self.feeling:
