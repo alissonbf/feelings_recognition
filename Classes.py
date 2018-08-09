@@ -6,8 +6,8 @@ from google.cloud import vision
 from google.cloud.vision import types
 
 KEY_PATH = os.path.join(
-    os.path.dirname(os.path.dirname(__file__)),
-    'feelings_recognition/keys/abftecnologia-56388dd8d1e6.json'
+    os.path.dirname(os.path.realpath(__file__)),
+    'keys/abftecnologia-56388dd8d1e6.json'
 )
 
 SCORE_NAME = {

@@ -6,3 +6,6 @@
 
 # Google Project Key
 keys/*
+
+# Google App Engine Libs
+lib/*
